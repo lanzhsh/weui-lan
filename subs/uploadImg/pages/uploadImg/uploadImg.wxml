@@ -1,0 +1,2 @@
+<navigation title="上传图片" back="{{true}}" home="{{true}}" />
+<view class="upload"></view>

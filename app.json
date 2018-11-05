@@ -51,18 +51,5 @@
       }
     ]
   },
-  "subPackages": [
-    {
-      "root": "subs/shopDetail",
-      "pages": [
-        "pages/detailOne/detailOne"
-      ]
-    },
-    {
-      "root": "subs/auth",
-      "pages": [
-        "pages/auth/auth"
-      ]
-    }
-  ]
+  "subPackages": []
 }
