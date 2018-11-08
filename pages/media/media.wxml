@@ -39,6 +39,11 @@
             4.背景音乐:
             <backAudio/>
           </view>
+
+          <auth bindgetUserInfo="getUserInfo" show="{{showAuthFlag}}"/>
+
+<!-- <button open-type='contact' session-from='{"type": "url", "title": "点击进入官网", "url": "http://xiaokefu.hotapp.cn"}'>自动回复打开网址</button> -->
+
         </view>
 
         <!-- 选项二内容 -->

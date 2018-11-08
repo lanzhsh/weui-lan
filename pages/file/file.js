@@ -1,4 +1,6 @@
 // pages/classify/classify.js
+const app = getApp()
+
 Page({
   data: {
       files: []

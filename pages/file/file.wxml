@@ -49,4 +49,6 @@
       </view>
     </view>
   </view>
+
+  <button open-type='contact'>自动回复标题</button>
 </view>

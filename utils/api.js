@@ -1,8 +1,10 @@
 //配置请求baseUrl
-const HOST = 'https://dev-jiajiao.aijiatui.com'
+import { envConfig } from './config/index'
+const HOST = `https://${envConfig.host}`
 
 const API = {
   login: `${HOST}/teaching/applet/login`, // 登录
+  pageData: `${HOST}/teaching/applet/pageData`, // 首页数据
 }
 
 export default API
